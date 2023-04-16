@@ -8,7 +8,7 @@ public class Action : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        if (Input.GetKeyDown(KeyCode.G) == true)
+       
         {
 
             other.GetComponent<PlayerController>().points += 1;
